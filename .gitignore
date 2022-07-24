@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# pyright configuration
+pyrightconfig.json
+
 # Distribution / packaging
 .Python
 build/
