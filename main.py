@@ -113,6 +113,7 @@ def generator(threadid) -> None:
 
         if not ip:
             pprint(f'[THREAD-{threadid}] Failed to make IP-{str(i)}')
+            return # exit the function
 
         pprint(f'[THREAD-{threadid}] Generated IP-{str(i)}: {ip}')
 
